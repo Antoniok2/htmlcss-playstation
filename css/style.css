@@ -17,30 +17,24 @@
 
 .header_2 {
     display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid black;
 }
 
-.header2_sx {
-    display: flex;
-    justify-content: flex-start;
-    height: 50px;
-    width: 70%;
-}
-
-.header2_dx {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    height: 50px;
-    width: 30%;
-}
-
 .header2_dx button {
-    margin: 0 20px;
+    height: 40px;
+    margin: auto 10px;
 }
 
 .header2_dx span {
-    font-size: 20px;
+    margin: auto 20px;
     cursor: pointer;
 }
+
+
+
+
+
+
+
 
