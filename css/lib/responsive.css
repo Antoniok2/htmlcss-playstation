@@ -1,0 +1,12 @@
+@media all and (max-width: 991px) {
+
+
+   .header2_sx {
+       width: 100%;
+       justify-content: space-between;
+   }
+
+   .header2_dx {
+       display: none;
+   }
+}
