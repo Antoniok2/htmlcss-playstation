@@ -13,6 +13,7 @@
     background-color: black;
     height: 50px;
     width: 120px;
+    margin: 0 10px;
 }
 
 .header_2 {
@@ -33,6 +34,35 @@
 .header2_dx span {
     margin: auto 20px;
     cursor: pointer;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    position: relative;
+    height: 500px;
+    background-color: burlywood;
+}
+
+.jumbotron .returnal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.position_text_jumbo {
+    position: absolute;
+    color: white;
+    width: 35%;
+    height: 40%;
+    bottom: 15%;
+    left: 10%;
+}
+
+.jumbotron .position_text_jumbo button {
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
 }
 
 

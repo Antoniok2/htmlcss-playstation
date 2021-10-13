@@ -3,6 +3,13 @@
 
    .header2_sx {
        width: 100%;
+       justify-content: space-between;
    }
+
+   .row .jumbotron .position_text_jumbo {
+       width: 80%;
+   }
+
+
 
 }
