@@ -24,6 +24,10 @@
 .header2_dx button {
     height: 40px;
     margin: auto 10px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 0 10px;
+    color: white;
 }
 
 .header2_dx span {
