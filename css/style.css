@@ -1,9 +1,11 @@
-[class*="col-"] {
+/* [class*="col-"] {
     min-height: 50px;
-    /* background-color: rgb(255, 199, 199); */
-}
+    background-color: rgb(255, 199, 199); 
+    border: 1px solid black; 
+} */
 
 /* QUI COMINCIA L'HEADER  */
+
 .header_1 {
     background-color: black;
 }
@@ -38,19 +40,16 @@
 
 /* JUMBOTRON */
 .jumbotron {
-    position: relative;
+    display: flex;
+    align-items: center;
     height: 500px;
     background-color: burlywood;
-}
-
-.jumbotron .returnal {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    
 }
 
 .position_text_jumbo {
-    position: absolute;
     color: white;
     width: 35%;
     height: 40%;
@@ -64,6 +63,62 @@
     border-radius: 20px;
     padding: 5px 10px;
 }
+
+.type_selection {
+    margin-top: 10px;
+}
+
+.type_selection img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* PRESENTAZIONE PS5 */
+.playstation_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.information_ps5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information_ps5 img {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+
+}
+
+.choise_accessory {
+    width: calc(90% / 5);
+    margin: 10px;
+}
+
+
+/* SECONDO JUMBOTRON */
+.jumbotron_2 {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: burlywood;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+}
+
+.jumbotron_2 .position_text_jumbo button {
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+
 
 
 
