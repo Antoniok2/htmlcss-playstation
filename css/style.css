@@ -99,7 +99,6 @@
     margin: 10px;
 }
 
-
 /* SECONDO JUMBOTRON */
 .jumbotron_2 {
     display: flex;
@@ -116,6 +115,20 @@
     border-radius: 20px;
     padding: 5px 10px;
 }
+
+/* PARTE NUOVE USCITE */
+.nuove_uscite {
+    height: auto;
+    background-color: #1f1f1f;
+}
+
+.new_play img {
+    width: 100%;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+
 
 
 
