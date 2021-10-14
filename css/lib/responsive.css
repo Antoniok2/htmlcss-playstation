@@ -12,8 +12,15 @@
 
    .row .jumbotron_2 .position_text_jumbo {
     width: 80%;
+   }
+
+
+
+
 }
 
-
-
+@media all and (max-width: 767px) {
+    .type_display {
+        display: none;
+    }
 }
