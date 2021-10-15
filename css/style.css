@@ -44,18 +44,19 @@
 .jumbotron {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 600px;
+    max-width: 100%;
     background-color: burlywood;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position:top;
+
 }
 
 .position_text_jumbo {
     color: white;
     width: 35%;
     height: 40%;
-    bottom: 15%;
-    left: 10%;
 }
 
 .jumbotron .position_text_jumbo button {
@@ -108,6 +109,7 @@
     background-color: burlywood;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .jumbotron_2 .position_text_jumbo button {
