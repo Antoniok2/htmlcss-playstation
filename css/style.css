@@ -135,6 +135,10 @@
     background-color:#bebcbb;
 }
 
+.ps_plus img {
+    width: 50%;
+}
+
 .type_display img {
     width: 100%;
     height: 100%;
