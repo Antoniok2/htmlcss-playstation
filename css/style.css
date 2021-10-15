@@ -124,7 +124,8 @@
 }
 
 .new_play img {
-    width: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 20px;
     margin: 10px 0;
 }
