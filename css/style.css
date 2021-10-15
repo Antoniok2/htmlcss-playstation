@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.dropdown:hover {
+    transition: 1s all;
+}
+
 /* QUI COMINCIA IL MAIN */
 
 /* JUMBOTRON */
@@ -172,7 +176,7 @@
 
 /* SEGUICI SUI SOCIAL */
 .row .rid_img {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
