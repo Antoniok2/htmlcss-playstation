@@ -70,6 +70,11 @@
     margin-top: 10px;
 }
 
+.type_selection:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
 .type_selection img {
     width: 100%;
     border-radius: 20px;
@@ -97,8 +102,13 @@
 }
 
 .choise_accessory {
-    width: calc(90% / 5);
+    width: calc(80% / 5);
     margin: 10px;
+}
+
+.choise_accessory:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 /* SECONDO JUMBOTRON */
@@ -132,6 +142,11 @@
     margin: 10px 0;
 }
 
+.new_play:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
 /* PLAYSTATION PLUS */
 .ps_plus {
     background-color:#bebcbb;
@@ -151,6 +166,10 @@
     background-color: #161c3b;
 }
 
+.ps_now .img-fluid {
+    width: 50%;
+}
+
 /* SEGUICI SUI SOCIAL */
 .row .rid_img {
     width: 50%;
@@ -161,6 +180,10 @@
 .footer {
     background-color: #00439c;
     height: auto;
+}
+
+.footer img {
+    color: white;
 }
 
 .logo_footer {
